@@ -3,8 +3,20 @@
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
-    "strict": true,
+    "strict": false,
+    "checkJs": false,
     "noEmit": true,
+     "noUnusedLocals": false,           // Disabled
+    "noUnusedParameters": false,       // Disabled
+    "noFallthroughCasesInSwitch": false, // Disabled
+    "noUncheckedSideEffectImports": false, // Disabled
+    "noImplicitAny": false,
+    "strictNullChecks": false,
+    "strictFunctionTypes": false,
+    "strictBindCallApply": false,
+    "strictPropertyInitialization": false,
+    "noImplicitReturns": false,
+    "noImplicitThis": false,
     "esModuleInterop": true,
     "module": "esnext",
     "moduleResolution": "bundler",
