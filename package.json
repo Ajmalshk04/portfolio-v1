@@ -7,8 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-   "deploy": "next build && npm run create-nojekyll && gh-pages -d out -b main -r https://github.com/ajmalshk04/ajmalshk04.github.io.git",
-  "create-nojekyll": "node -e \"require('fs').writeFileSync('out/.nojekyll', '')\""
+   "deploy": "next build && node -e \"require('fs').writeFileSync('out/.nojekyll', '')\" && gh-pages -d out -r https://github.com/ajmalshaikh/ajmalshaikh.github.io.git",
+    "create-nojekyll": "node -e \"require('fs').writeFileSync('out/.nojekyll', '')\""
   },
   "dependencies": {
     "@radix-ui/react-avatar": "^1.1.6",

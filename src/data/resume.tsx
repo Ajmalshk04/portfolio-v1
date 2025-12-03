@@ -182,7 +182,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/xofah-preview.png",
+      image: "xofah-preview.png",
       video: "",
     },
     {
