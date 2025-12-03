@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "next build && echo > out/.nojekyll && gh-pages -d out --dotfiles"
+   "deploy": "next build && touch out/.nojekyll && gh-pages -d out -b main -r https://github.com/ajmalshk04/ajmalshk04.github.io.git"
   },
   "dependencies": {
     "@radix-ui/react-avatar": "^1.1.6",
