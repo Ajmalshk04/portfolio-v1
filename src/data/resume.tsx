@@ -11,7 +11,7 @@ export const DATA = {
     "Full Stack Developer specializing in MERN stack. I love building scalable web applications and solving complex problems. Passionate about creating seamless user experiences.",
   summary:
     "I'm a dedicated Full Stack Developer with expertise in the MERN stack, having built multiple production-ready applications including e-commerce platforms and B2B solutions. I've successfully developed and deployed scalable web applications serving 1+ lakh products and integrated various payment gateways. My journey includes working with startups and building comprehensive CRM systems, always focusing on performance optimization and user experience.",
-  avatarUrl: "/me.jpg",
+  avatarUrl: "me.jpg",
    skills: [
     { name: "JavaScript", icon: "javascript" },
     { name: "TypeScript", icon: "typescript" },
@@ -74,7 +74,7 @@ export const DATA = {
       badges: ["Solo Developer", "E-commerce"],
       location: "Mumbai, India",
       title: "Full Stack Developer",
-      logoUrl: "/numberwale.png",
+      logoUrl: "numberwale.png",
       start: "July 2024",
       end: "Present",
       description:
@@ -157,7 +157,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/numberwale-preview.png",
+      image: "numberwale-preview.png",
       video: "",
     },
     {
