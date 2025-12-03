@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-   "deploy": "next build && node -e \"require('fs').writeFileSync('out/.nojekyll', '')\" && gh-pages -d out -r https://github.com/ajmalshaikh/ajmalshaikh.github.io.git",
+   "deploy": "next build && node -e \"require('fs').writeFileSync('out/.nojekyll', '')\" && cd out && git init && git add . && git config user.name \"Deploy Bot\" && git config user.email \"bot@example.com\" && git commit -m \"Deploy\" && git remote add origin https://github.com/Ajmalshk04/ajmalshaikh.github.io.git && git branch -M main && git push -f -u origin main",
     "create-nojekyll": "node -e \"require('fs').writeFileSync('out/.nojekyll', '')\""
   },
   "dependencies": {
